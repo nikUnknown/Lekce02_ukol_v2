@@ -9,7 +9,7 @@ public class Room {
     private boolean seaView;
     private BigDecimal price;
 
-    public Room(){
+    public Room(int roomNum, int bed, BigDecimal price, boolean withBalcone, boolean seaView){
         this.roomNum = roomNum;
         this.bed = bed;
         this.withBalcone = withBalcone;

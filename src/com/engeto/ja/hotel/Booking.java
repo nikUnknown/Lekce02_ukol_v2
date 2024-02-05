@@ -9,8 +9,9 @@ public class Booking {
     private LocalDate endDate;
     //boolean isVacation;
     //boolean isBusiness;
+    private Guest guest;
 
-    public Booking (){
+    public Booking (int numberPeople, LocalDate startDate, LocalDate endDate){
         this.numberPeople = numberPeople;
         this.startDate = startDate;
         this.endDate = endDate;

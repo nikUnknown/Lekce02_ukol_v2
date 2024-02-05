@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbf973a4-4836-47fd-900e-dec660b39503" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lekce02_ukol_v2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/engeto/ja/hotel/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/engeto/ja/hotel/Guest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/engeto/ja/hotel/Room.java" afterDir="false" />
+    <list default="true" id="bbf973a4-4836-47fd-900e-dec660b39503" name="Changes" comment="Lekce02 - ukol - hotel (verze 2)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/engeto/ja/hotel/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/engeto/ja/hotel/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/engeto/ja/hotel/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/engeto/ja/hotel/Guest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/engeto/ja/hotel/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/engeto/ja/hotel/Room.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2blTlNTkd8NZirWrir3mdG52F3E" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,7 +41,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Project/Lekce02_ukol_v2"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -58,6 +54,19 @@
       <option name="presentableId" value="Default" />
       <updated>1706788817292</updated>
     </task>
+    <task id="LOCAL-00001" summary="Lekce02 - ukol - hotel (verze 2)">
+      <option name="closed" value="true" />
+      <created>1706791110602</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706791110602</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lekce02 - ukol - hotel (verze 2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lekce02 - ukol - hotel (verze 2)" />
   </component>
 </project>
