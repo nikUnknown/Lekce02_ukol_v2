@@ -3,7 +3,6 @@ package com.engeto.ja.hotel;
 import java.time.LocalDate;
 
 public class Guest {
-
     private String name;
     private LocalDate born;
 
@@ -17,7 +16,6 @@ public class Guest {
     }
 
     public void setName(String name) {
-
         this.name = name;
     }
 
@@ -26,7 +24,6 @@ public class Guest {
     }
 
     public void setBorn(LocalDate born) {
-
         this.born = born;
     }
 
