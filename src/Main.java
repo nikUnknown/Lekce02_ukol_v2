@@ -10,6 +10,7 @@ public class Main {
 
     public static <List> void main(String[] args) {
 
+        System.out.println("List of people:");
         Guest guest1 = new Guest("Adela Malikova", LocalDate.of(1993, 3, 13));
         System.out.println(guest1.getName() + " (" + guest1.getBorn() + ")");
 
@@ -17,6 +18,7 @@ public class Main {
         System.out.println(guest2.getName() + " (" + guest2.getBorn() + ")");
         System.out.println();
 
+        System.out.println("List of rooms:");
         Room room1 = new Room(1, 1, BigDecimal.valueOf(1000), true, true);
         System.out.println("Room number: " + room1.getRoomNum() + ", number of beds: " + room1.getBed() + ", price: " + room1.getPrice() + "Czk/night" + ", balcony: " + room1.isWithBalcone() + ", sea view: " + room1.isSeaView());
 
@@ -38,6 +40,7 @@ public class Main {
 
         //Reservation n.1
         System.out.println();
+        System.out.println("List of reservations:");
         Booking booking1 = new Booking(0, LocalDate.now(), LocalDate.now(), true);
         booking1.setNumberPeople(1);
         booking1.setStartDate(LocalDate.of(2021, 7, 1));
@@ -52,15 +55,17 @@ public class Main {
         System.out.println("Number of people: " + booking2.getNumberPeople() + ", name: " + guest1.getName() + ", " + guest2.getName() + ", reservation date: " + booking2.getStartDate() + " - " + booking2.getEndDate());
 
         //Reservation n.3
-        Booking booking3 = new Booking(1,LocalDate.of(2023,6,1),LocalDate.of(2023,6,7),false);
-        booking3.addGuest("Karel Dvorak", LocalDate.of(1990,5,15));
+        Booking booking3 = new Booking(1, LocalDate.of(2023, 6, 1), LocalDate.of(2023, 6, 7), false);
+        booking3.addGuest("Karel Dvorak", LocalDate.of(1990, 5, 15));
         booking3.setNumberPeople(1);
-        System.out.println("Date from:"+booking3.getStartDate()+" - date to:"+booking3.getEndDate()+": "+booking3.getGuests()+", number of guests: "+booking3.getNumberOfGuest()+" , sea view: "+room3.isSeaView()+" , price: "+room3.getPrice());
+        System.out.println("Date from:" + booking3.getStartDate() + " - date to:" + booking3.getEndDate() + ": " + booking3.getGuests().getFirst() + ", number of guests: " + booking3.getNumberOfGuest() + " , sea view: " + room3.isSeaView() + " , price: " + room3.getPrice());
 
-        /*
-        public BookingManager fillBookings(){
+        System.out.println("---------------------------");
+
+
+        public static void fillBookings(){
+
+
         }
-        */
-
     }
 }

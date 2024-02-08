@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbf973a4-4836-47fd-900e-dec660b39503" name="Changes" comment="Lekce02 - ukol - hotel (verze 3)&#10;- finalni oprava&#10;- oprava konstruktoru ve vsech tridach&#10;- uprava main tridy">
-      <change afterPath="$PROJECT_DIR$/src/com/engeto/ja/hotel/BookingManager.java" afterDir="false" />
+    <list default="true" id="bbf973a4-4836-47fd-900e-dec660b39503" name="Changes" comment="Lekce 03 - rozsireni ukolu Hotel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/engeto/ja/hotel/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/engeto/ja/hotel/Booking.java" afterDir="false" />
@@ -35,16 +34,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Project/Lekce02_ukol_v2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Project/Lekce02_ukol_v2&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -77,12 +76,21 @@
       <option name="project" value="LOCAL" />
       <updated>1707137457711</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lekce 03 - rozsireni ukolu Hotel">
+      <option name="closed" value="true" />
+      <created>1707246803146</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707246803146</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lekce02 - ukol - hotel (verze 2)" />
     <MESSAGE value="Lekce02 - ukol - hotel (verze 3)&#10;- finalni oprava&#10;- oprava konstruktoru ve vsech tridach&#10;- uprava main tridy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lekce02 - ukol - hotel (verze 3)&#10;- finalni oprava&#10;- oprava konstruktoru ve vsech tridach&#10;- uprava main tridy" />
+    <MESSAGE value="Lekce 03 - rozsireni ukolu Hotel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lekce 03 - rozsireni ukolu Hotel" />
   </component>
 </project>

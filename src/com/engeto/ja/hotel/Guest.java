@@ -27,4 +27,8 @@ public class Guest {
         this.born = born;
     }
 
+    @Override public String toString(){
+        return name+" "+born;
+    }
+
 }

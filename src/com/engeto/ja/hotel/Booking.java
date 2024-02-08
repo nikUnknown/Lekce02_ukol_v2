@@ -10,7 +10,7 @@ public class Booking {
     private LocalDate startDate;
     private LocalDate endDate;
     private boolean isVacation;
-    private List<String> guests;
+    private ArrayList<Guest> guests;
 
 
     //konstruktor pro tridu Booking
@@ -19,14 +19,17 @@ public class Booking {
         this.startDate = startDate;
         this.endDate = endDate;
         this.isVacation = isVacation;
-        this.guests = new ArrayList<String>();
+        this.guests = new ArrayList<Guest>();
     }
 
-    public void addGuest(String guest, LocalDate localDate) {
+    public void addGuest(String name, LocalDate born) {
+        Guest guest = new Guest(name,born);
         guests.add(guest);
     }
 
-    public List<String> getGuests() {
+
+
+    public List<Guest> getGuests() {
         return guests;
     }
 
